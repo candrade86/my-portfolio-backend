@@ -1,7 +1,7 @@
 let express = require('express');
 let router = express.Router();
 let nodemailer = require('nodemailer');
-let creds = require('../config/config.js');
+let creds = require('../config.js');
 
 var transport = {
   host: 'smtp.ymail.com',
