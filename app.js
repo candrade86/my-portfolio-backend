@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 
 
-app.use('/', index);
+app.use('/api', index);
 
 
 // catch 404 and forward to error handler
